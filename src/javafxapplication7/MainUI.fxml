@@ -16,7 +16,7 @@
       <Button layoutX="292.0" layoutY="189.0" mnemonicParsing="false" text="Click me to check" />
       <Label layoutX="267.0" layoutY="116.0" text="Every thing is fine." textFill="#1bad11">
          <font>
-            <Font size="20.0" />
+            <Font size="21.0" />
          </font>
       </Label>
    </children>
