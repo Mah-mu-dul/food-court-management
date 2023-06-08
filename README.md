@@ -46,7 +46,7 @@ Contributions to the Food Court Management Software are welcome! If you encounte
 
 
 ## License
-This project is open source. Feel free to modify and distribute the software per the license terms.
+This project is open source. Feel free to modify and distribute the software.
 
 
 Experience seamless food court management with the Food Court Management Software. Empower management, shareholders, and shopkeepers with an efficient and user-friendly tool to streamline operations, enhance customer satisfaction, and drive business success. Start managing your food court effectively today!
