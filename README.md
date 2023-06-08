@@ -28,4 +28,26 @@ To run the Food Court Management Software, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/food-court-management.git
+   git clone https://github.com/wanna-be-pro/food-court-management.git
+
+
+2. Install the required dependencies. Make sure you have JavaFX installed on your system.
+
+3. Compile and run the application:
+
+   ```shell 
+   cd food-court-management
+   javac Main.java
+   java Main
+
+## Contribution
+
+Contributions to the Food Court Management Software are welcome! If you encounter any bugs, have feature requests, or want to contribute enhancements, please submit a pull request. Please adhere to the project's code style and include appropriate tests.
+
+
+## License
+This project is open source. Feel free to modify and distribute the software per the license terms.
+
+
+Experience seamless food court management with the Food Court Management Software. Empower management, shareholders, and shopkeepers with an efficient and user-friendly tool to streamline operations, enhance customer satisfaction, and drive business success. Start managing your food court effectively today!
+
