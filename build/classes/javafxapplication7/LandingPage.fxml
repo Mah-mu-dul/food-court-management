@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="587.0" prefWidth="765.0" style="-fx-background-color: #fff9c7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication7.LandingPageController">
+   <children>
+      <AnchorPane layoutX="153.0" layoutY="10.0" prefHeight="47.0" prefWidth="440.0" style="-fx-background-color: #ddda; -fx-background-radius: 10;">
+         <children>
+            <Label fx:id="homebtn" alignment="CENTER" layoutX="60.0" layoutY="6.0" onMouseClicked="#homeBtnClick" prefHeight="33.0" prefWidth="73.0" style="-fx-background-color: #bccae6; -fx-background-radius: 8;" text="Home" />
+            <Label fx:id="orders" alignment="CENTER" layoutX="144.0" layoutY="6.0" onMouseClicked="#ordersBtnClick" prefHeight="33.0" prefWidth="73.0" style="-fx-background-radius: 8;" text="Orders" />
+            <Label fx:id="items" alignment="CENTER" layoutX="227.0" layoutY="7.0" onMouseClicked="#itemsBtnClick" prefHeight="33.0" prefWidth="73.0" style="-fx-background-radius: 8;" text="Items" />
+            <Label fx:id="controll" alignment="CENTER" layoutX="313.0" layoutY="7.0" onMouseClicked="#controllBtnClick" prefHeight="33.0" prefWidth="73.0" style="-fx-background-radius: 8;" text="Controll" />
+         </children>
+         <effect>
+            <DropShadow height="0.0" radius="0.0" width="0.0">
+               <input>
+                  <ColorAdjust />
+               </input>
+            </DropShadow>
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
