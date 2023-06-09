@@ -59,23 +59,28 @@ public class LandingPageController implements Initializable {
     @Override
 
     public void initialize(URL url, ResourceBundle rb) {
+        loadPage("Home");
         // TODO
     }
 
     private void select(String page) {
         deselect();
 
-        if (page == "home") {
-            homebtn.setStyle(selected);
-        } else if (page == "orders") {
-            orderbtn.setStyle(selected);
-
-        } else if (page == "items") {
-            itemsbtn.setStyle(selected);
-
-        } else if (page == "controll") {
-            controllbtn.setStyle(selected);
-
+        if (null != page) switch (page) {
+            case "home":
+                homebtn.setStyle(selected);
+                break;
+            case "orders":
+                orderbtn.setStyle(selected);
+                break;
+            case "items":
+                itemsbtn.setStyle(selected);
+                break;
+            case "controll":
+                controllbtn.setStyle(selected);
+                break;
+            default:
+                break;
         }
     }
 
