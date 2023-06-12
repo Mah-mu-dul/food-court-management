@@ -3,34 +3,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane id="AnchorPane" fx:id="ordersRootPan" prefHeight="587.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication7.OrdersController">
    <children>
-      <Label layoutX="260.0" layoutY="264.0" text="This is Orders">
+      <Label layoutX="419.0" layoutY="340.0" text="This is Orders">
          <font>
             <Font size="41.0" />
          </font>
       </Label>
-      <Text layoutX="185.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="loream30">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Text>
-      <Text layoutX="601.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="loream30">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Text>
-      <Text layoutX="601.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="loream30">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Text>
-      <Text layoutX="14.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="loream30">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Text>
    </children>
 </AnchorPane>
